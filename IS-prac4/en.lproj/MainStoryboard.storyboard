@@ -64,6 +64,59 @@
                                     <action selector="prac4_5:" destination="2" eventType="touchUpInside" id="Xh1-u9-a3H"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H88-vK-3bW">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習４−６">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="prac4_6:" destination="2" eventType="touchUpInside" id="rx4-9K-841"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPL-gJ-782">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習４−７">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="prac4_7:" destination="2" eventType="touchUpInside" id="GSc-o7-JSY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBN-fN-y9e">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="演習４−９">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="prac4_9:" destination="2" eventType="touchUpInside" id="KHh-17-XJt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ntx-pf-iTx">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <string key="title">演習４−１0</string>
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="prac4_10:" destination="2" eventType="touchUpInside" id="ywc-Bj-Hz8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -71,10 +124,18 @@
                             <constraint firstItem="iIf-qO-yuD" firstAttribute="centerX" secondItem="hTa-AN-lu6" secondAttribute="centerX" type="default" id="4Rp-yf-qQN"/>
                             <constraint firstItem="JXy-oR-MrZ" firstAttribute="centerX" secondItem="iIf-qO-yuD" secondAttribute="centerX" type="default" id="5nj-C8-wgO"/>
                             <constraint firstItem="hTa-AN-lu6" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="6jN-28-HkP"/>
-                            <constraint firstItem="3qN-D1-czb" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="8Sb-Nh-FK1"/>
+                            <constraint firstItem="H88-vK-3bW" firstAttribute="top" secondItem="3qN-D1-czb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="6sF-9A-pSl"/>
+                            <constraint firstItem="pBN-fN-y9e" firstAttribute="top" secondItem="kPL-gJ-782" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="7F1-tO-wFg"/>
+                            <constraint firstItem="pBN-fN-y9e" firstAttribute="centerX" secondItem="kPL-gJ-782" secondAttribute="centerX" type="default" id="Buk-pB-TQL"/>
                             <constraint firstItem="3qN-D1-czb" firstAttribute="centerX" secondItem="JXy-oR-MrZ" secondAttribute="centerX" type="default" id="FME-c1-xJQ"/>
+                            <constraint firstItem="Ntx-pf-iTx" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="JsG-lg-XUE"/>
+                            <constraint firstItem="Ntx-pf-iTx" firstAttribute="top" secondItem="pBN-fN-y9e" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Kga-vy-FTh"/>
+                            <constraint firstItem="Ntx-pf-iTx" firstAttribute="centerX" secondItem="pBN-fN-y9e" secondAttribute="centerX" type="default" id="Mbf-ID-2Yq"/>
+                            <constraint firstItem="kPL-gJ-782" firstAttribute="top" secondItem="H88-vK-3bW" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="PBJ-wC-QIr"/>
                             <constraint firstItem="JXy-oR-MrZ" firstAttribute="top" secondItem="iIf-qO-yuD" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="YIQ-iR-xW6"/>
                             <constraint firstItem="iIf-qO-yuD" firstAttribute="top" secondItem="hTa-AN-lu6" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="cb0-F7-d2a"/>
+                            <constraint firstItem="kPL-gJ-782" firstAttribute="centerX" secondItem="H88-vK-3bW" secondAttribute="centerX" type="default" id="eVD-qu-S30"/>
+                            <constraint firstItem="H88-vK-3bW" firstAttribute="centerX" secondItem="3qN-D1-czb" secondAttribute="centerX" type="default" id="r4g-Ks-fxN"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -89,10 +150,14 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
+                <relationship kind="action" name="prac4_10:"/>
                 <relationship kind="action" name="prac4_2:"/>
                 <relationship kind="action" name="prac4_3:"/>
                 <relationship kind="action" name="prac4_4:"/>
                 <relationship kind="action" name="prac4_5:"/>
+                <relationship kind="action" name="prac4_6:"/>
+                <relationship kind="action" name="prac4_7:"/>
+                <relationship kind="action" name="prac4_9:"/>
             </relationships>
         </class>
     </classes>

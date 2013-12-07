@@ -14,5 +14,9 @@
 - (IBAction)prac4_3:(id)sender;
 - (IBAction)prac4_4:(id)sender;
 - (IBAction)prac4_5:(id)sender;
+- (IBAction)prac4_6:(id)sender;
+- (IBAction)prac4_7:(id)sender;
+- (IBAction)prac4_9:(id)sender;
+- (IBAction)prac4_10:(id)sender;
 
 @end
