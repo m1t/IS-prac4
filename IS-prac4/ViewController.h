@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)prac4_2:(id)sender;
+- (IBAction)prac4_3:(id)sender;
+- (IBAction)prac4_4:(id)sender;
+- (IBAction)prac4_5:(id)sender;
+
 @end
